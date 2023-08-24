@@ -51,8 +51,9 @@ Step 1. Add @nuxt/image as a dev-dependency using yarn :
 
 ```bash
 yarn add -D  @nuxt/image@rc
-```
 Note: rc is current version, so, it may change [ set accordingly ]
+```
+
 
 Step 2. Register @nuxt/image as a module in nuxt.config.ts : 
 
