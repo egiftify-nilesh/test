@@ -51,11 +51,11 @@ Step 1. Add @nuxt/image as a dev-dependency using yarn :
 
 ```bash
 yarn add -D  @nuxt/image@rc
-Note: rc is current version, so, it may change [ set accordingly ]
+
+# Note: rc is current version, so, it may change [ set accordingly ]
 ```
 
-
-Step 2. Register @nuxt/image as a module in nuxt.config.ts : 
+Step 2. Register @nuxt/image as a module in your nuxt.config.ts : 
 
 ```bash
 export default defineNuxtConfig({
@@ -64,7 +64,25 @@ export default defineNuxtConfig({
     ]
 })
 ```
-Note: rc is current version, so, it may change [ set accordingly ]
+Step 3. Set image global image configuration under image section in your nuxt.config: 
 
+```bash
+image: {
+  // Options
+}
+```
+See the [ image configuration ](https://image.nuxtjs.org/configuration) for all available options and features to customize.
+
+## NOTE : In case for Error related to node-fetch-native or polyfills.mjs 
+    ```bash
+    # add thid package to your project's package.json
+    "node-fetch-native": "^1.4.0"
+    ```
+
+Step 4. Usage of <nuxt-img/> and <nuxt-picture/> tag in Project
+    i). For  <nuxt-img/> follow : [ <nuxt-img/> Implementation ](https://image.nuxtjs.org/components/nuxt-img)
+    ii). For  <nuxt-picture/> follow : [ <nuxt-picture/> Implementation ](https://image.nuxtjs.org/components/nuxt-picture)
+
+ 
 
 Check out the [Module Documentation](https://image.nuxtjs.org) for more information.
