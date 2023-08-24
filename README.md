@@ -45,7 +45,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 # Nuxt POC's for Module to be used in Project
 
-## @nuxt/image Module POC
+## 1. @nuxt/image Module POC
 
 Step 1. Add @nuxt/image as a dev-dependency using yarn : 
 
