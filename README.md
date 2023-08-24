@@ -75,15 +75,15 @@ See the [ image configuration ](https://image.nuxtjs.org/configuration) for all 
 
 ## NOTE : In case for Error related to node-fetch-native or polyfills.mjs 
     ```bash
-    # add thid package to your project's package.json
+    # add this package to your project's package.json
     "node-fetch-native": "^1.4.0"
     ```
 
-Step 4. Usage of <nuxt-img/> and <nuxt-picture/> tag in Project.
+Step 4. Usage of nuxt-img and nuxt-picture tags in Project.
 
-i). For  <nuxt-img/> follow  : [ nuxt-img Implementation ](https://image.nuxtjs.org/components/nuxt-img)
+i). For nuxt-img follow  : [ nuxt-img Implementation ](https://image.nuxtjs.org/components/nuxt-img)
 
-ii). For  <nuxt-picture/> follow : [ nuxt-picture Implementation ](https://image.nuxtjs.org/components/nuxt-picture)
+ii). For nuxt-picture follow : [ nuxt-picture Implementation ](https://image.nuxtjs.org/components/nuxt-picture)
 
 
 Check out the [Module Documentation](https://image.nuxtjs.org) for more information.
