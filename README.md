@@ -79,9 +79,11 @@ See the [ image configuration ](https://image.nuxtjs.org/configuration) for all 
     "node-fetch-native": "^1.4.0"
     ```
 
-Step 4. Usage of <nuxt-img/> and <nuxt-picture/> tag in Project
-    i). For  <nuxt-img/> follow : [ <nuxt-img/> Implementation ](https://image.nuxtjs.org/components/nuxt-img)
-    ii). For  <nuxt-picture/> follow : [ <nuxt-picture/> Implementation ](https://image.nuxtjs.org/components/nuxt-picture)
+Step 4. Usage of "nuxt-img" and "nuxt-picture" tag in Project.
+
+    i). For  <nuxt-img/> follow : [ nuxt-img Implementation ](https://image.nuxtjs.org/components/nuxt-img)
+
+    ii). For  <nuxt-picture/> follow : [ nuxt-picture Implementation ](https://image.nuxtjs.org/components/nuxt-picture)
 
  
 
